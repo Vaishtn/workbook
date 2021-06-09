@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>web form</title>
+</head>
+
+<body>
+    <h1>Demo Form</h1>
+    <form action="/Login">
+        <p>
+            <label for="username">User Name</label>
+            <input type="text" name="user name" id="username" placeholder="Enter the name">
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter the email">
+        </p>
+        <p>
+            <label for="password">password</label>
+            <input type="password" name="password" id="password" placeholder="Enter the password">
+        </p>
+        <p>
+            <label for="contact">contact</label>
+            <input type="text" name="num" id="contact" placeholder="Enter the num">
+        </p>
+        <button>submit</button>
+    </form>
+    <hr>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>search Google</button>
+    </form>
+    <form action="https://www.youtube.com/watch">
+        <input type="text" name="v">
+        <button>search YouTube</button>
+    </form>
+    <h2>some input</h2>
+    <form action="/bid">
+
+        <label for="bird">Bird century</label>
+        <input type="checkbox" id="bird" name="bird">
+        <p>
+            <input type="radio" id="huey" name="drone" value="huey">
+            <label for="huey">Mail</label>
+
+            <input type="radio" id="dewey" name="drone" value="dewey">
+            <label for="dewey">Femail</label>
+
+            <input type="radio" id="louie" name="drone" value="louie">
+            <label for="louie">Other</label>
+        </p>
+        <p>
+            <label for="pet-select">choose a pet</label>
+            <select name="pets" id="pet-select">
+                <option>
+                    <----select the correct-->
+                </option>
+                <option>dog</option>
+                <option>cat</option>
+                <option>pig</option>
+            </select>
+        </p>
+        <p>
+            <label for="range">Range</label>
+            <input type="range" id="range" name="range_level" min="1" max="100">
+        </p>
+
+        <p>
+            <label for="text">Text here</label>
+            <textarea rows="2" cols="10" id="text" name="area"></textarea>
+        </p>
+
+
+        <button>submit</button>
+        <hr>
+        <h1>Validation</h1>
+        <p>
+            <label for="User">User Name</label>
+            <input type="text" id="User" placeholder="Enter user name" name="name" required>
+        </p>
+        <p>
+            <label for="date">DOB</label>
+            <input type="date" id="date" name="date-of" required>
+        </p>
+        <p>
+            <label for="contact">Phone Number</label>
+            <input type="text" id="contact" placeholder="Enter the valid number" name="num" required>
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter the id" name="email" required>
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter the password" name="password" required>
+        </p>
+
+        <button>submit</button>
+    </form>
+</body>
+
+</html>

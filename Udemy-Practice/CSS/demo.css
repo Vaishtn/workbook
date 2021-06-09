@@ -1,0 +1,76 @@
+h1{
+    text-transform:uppercase;
+    font-family:monospace;
+    text-align:center;
+    font-weight:100;
+    font-size:40px;
+    letter-spacing:20px;
+    
+}
+p{
+    color: silver;
+    background-color: black;
+    text-align: center;
+
+}
+button{
+    color: blue;
+    background-color: blueviolet;
+
+}
+/* *{
+    /* Universal  */
+    /* color: rgb(78, 30, 210);
+} */ */
+h1,p{
+    /* element */
+    background-color: darkgray;
+}
+#demo{
+    /* id */
+color: darkgreen;
+}
+.tag{
+    /* class */
+    color: darkviolet;
+}
+li a{
+    /* descendant */
+
+    color: deeppink;
+}
+h2+p{
+    /* adjacent selector */
+    font-style: italic;
+}
+div>h1{
+    /* Direct child */
+    font-style: italic;
+}
+input[type="text"]{
+    /* Attribute selector */
+    width: 200px;
+    color:blue;
+}
+a:hover{
+    /* pseudo classes */
+    font-style: italic;
+}
+button:active{
+    /* pseudo classes */
+    color: cornsilk;
+    background-color: crimson;
+}
+p:nth-last-of-type(2){
+    /* pseudo classes */
+    background-color: darkgrey;
+}
+p::selection{
+    /* pseudo element*/
+    background-color: darkkhaki;
+    
+}
+p::first-letter{
+    /* pseudo element */
+    font-size: 200%;
+}

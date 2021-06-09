@@ -1,0 +1,14 @@
+.demo:nth-of-type(2){
+    background-color: blanchedalmond;
+    width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+div{
+    background-color: blueviolet;
+    color: cadetblue;
+    text-align: center;
+    display: flix;
+    
+}

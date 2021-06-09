@@ -1,0 +1,43 @@
+body{
+    font-family: fantasy;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(7, 4, 44);
+}
+h1{
+    background: none;
+    color: palegoldenrod;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color0.25s,border-color 0.25s,box-shadow 0.25s,transform 0.25s;
+}
+button:hover{
+    border-color: papayawhip;
+    color: plum;
+    box-shadow: 0 0.5em 0.5em -0.4em yellow ;
+    transform: translateY(-1.25em);
+    cursor: pointer;
+}
+
+
+
+
+/* h1{
+    color: rgb(19, 19, 26);
+    border: 2px solid rgb(19, 4, 4);
+    text-align: center;
+    font-size: medium;
+    width: 300px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 2px auto;
+    padding:10px
+    
+
+}
+h1:nth-of-type(2n){
+    background-color: yellow;
+} */
